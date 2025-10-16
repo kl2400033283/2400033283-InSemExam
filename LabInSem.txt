@@ -1,0 +1,35 @@
+IN-SEM-LAB EXAM
+
+GIT COMMANDS-
+1. git init   //Git repository initialized
+
+2. git add .   //Files added to staging
+
+3. git commit -m "Student portal project"   //Changes committed with messages
+
+4. git branch feature-login  //feature-login branch created
+
+5. git checkout feature-login
+   git add app.js
+   git commit -m "Add login functionality"
+  //Changes made in app.js and committed in branch
+
+6. git checkout main  //Switched back to main
+
+7. git add style.css
+   git commit -m "Update styles with blue text color"
+  //style.css changed and committed
+
+8. git merge feature-login  //feature-login merged into main
+
+9. git add <conflicted-file>  
+   git commit -m "resolve merge conflicts"
+   //Merge conflicts handled
+
+10. git diff  //git diff used to view changes
+
+11. git reset <file>
+    git checkout -- <file>
+   //Changes undone using git reset and git checkout
+
+12. git tag v1.0  //Latest commit tagged as v1.0
